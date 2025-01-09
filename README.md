@@ -18,7 +18,7 @@
 
   <!-- Seção de Skills com as tecnologias específicas -->
   <p align="center">
-    <img src="https://skillicons.dev/icons?i=python,php,js,html,css,mysql,linux" alt="Skills" />
+    <img src="https://skillicons.dev/icons?i=python,php,js,html,css,mysql,linux,java" alt="Skills" />
   </p>
 
   <br/>
@@ -27,13 +27,13 @@
   <a href="https://www.youtube.com/">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
   </a>
-  <a href="https://www.instagram.com/">
+  <a href="https://www.instagram.com/dawidoli/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
-  <a href="https://www.linkedin.com/">
+  <a href="[https://www.linkedin.com](https://www.linkedin.com/in/dawid-de-jesus-258a1818a/)/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="mailto:seu_email@gmail.com">
+  <a href="mailto:dawidjesus2@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </div>
