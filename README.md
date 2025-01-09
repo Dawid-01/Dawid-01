@@ -40,4 +40,3 @@
 
 ---
 
-![Snake animation](https://github.com/Dawid-01/Dawid-01/blob/output/github-contribution-grid-snake.svg)
