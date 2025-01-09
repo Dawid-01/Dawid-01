@@ -8,14 +8,17 @@
 
   <p><b>Total Stars:</b> 1.6k | <b>Total Commits:</b> 413 | <b>Total PRs:</b> 4 | <b>Contributed to:</b> 5</p>
 
-  <img src="https://github-readme-stats.vercel.app/api?username=Dawid-01&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <!-- Seção com Stats e Linguagens lado a lado -->
+  <div style="display: flex; justify-content: center; gap: 20px;">
+    <img src="https://github-readme-stats.vercel.app/api?username=Dawid-01&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dawid-01&layout=compact&langs_count=6&theme=tokyonight" alt="Linguagens Mais Usadas" />
+  </div>
 
   <br/>
 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dawid-01&layout=compact&langs_count=6&theme=tokyonight" alt="Linguagens Mais Usadas" />
-
+  <!-- Seção de Skills com as tecnologias específicas -->
   <p align="center">
-    <img src="https://skillicons.dev/icons?i=js,ts,html,css,react,python,c" alt="Skills" />
+    <img src="https://skillicons.dev/icons?i=python,php,js,html,css,mysql,linux" alt="Skills" />
   </p>
 
   <br/>
