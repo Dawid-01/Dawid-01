@@ -15,11 +15,17 @@ jobs:
         uses: actions/checkout@v2
 
       # Configura a Snake Animation
-      - name: Gerar animação da cobrinha
+      - name: Gerar animação da cobrinha (SVG)
         uses: Platane/snk@v2
         with:
           github_user_name: Dawid-01
           outputs: dist/snake.svg
+
+      # Gera um GIF animado da cobrinha
+      - name: Gerar GIF animado da cobrinha
+        run: |
+          sudo apt-get install -y imagemagick
+          convert -delay 10 -loop 0 dist/snake.svg dist/snake.gif
 
       # Faz o upload da animação para a branch "output"
       - name: Enviar animação para a branch output
@@ -27,3 +33,26 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+
+      # Atualiza o README do perfil com a animação e estatísticas
+      - name: Atualizar README do perfil
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git checkout main
+          echo "### 🐍 Minha Animação da Cobrinha 🐍" > README.md
+          echo "![Snake Animation](https://github.com/Dawid-01/Dawid-01/blob/output/dist/snake.svg)" >> README.md
+          echo "### 📊 Estatísticas do GitHub" >> README.md
+          echo "![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=Dawid-01&show_icons=true&theme=radical)" >> README.md
+          echo "![Linguagens Mais Usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=Dawid-01&layout=compact&theme=radical)" >> README.md
+          git add README.md
+          git commit -m "Atualiza README com animação da cobrinha e estatísticas"
+          git push
+
+      # Adiciona um badge ao README para mostrar o status do workflow
+      - name: Adicionar badge de status do workflow
+        run: |
+          echo "[![GitHub Actions Status](https://github.com/Dawid-01/Dawid-01/workflows/Generate%20Snake%20Animation/badge.svg)](https://github.com/Dawid-01/Dawid-01/actions)" >> README.md
+          git add README.md
+          git commit -m "Adiciona badge de status do workflow"
+          git push
