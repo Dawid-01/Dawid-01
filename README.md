@@ -42,7 +42,7 @@
   <!-- Seção de Contribuições Recentes -->
   <h3>🌟 Contribuições Recentes</h3>
   <p align="center">
-    <img src="https://streak-stats.demolab.com/?user=Dawid-01&theme=tokyonight" alt="GitHub Streak" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dawid-01&theme=tokyonight" alt="GitHub Streak" />
   </p>
 
   <br/>
