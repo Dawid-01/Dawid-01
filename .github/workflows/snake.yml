@@ -14,7 +14,9 @@ jobs:
     steps:
       # Baixa o repositório
       - name: Clonar repositório
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Garante acesso ao histórico completo
 
       # Verificar nome de usuário
       - name: Verificar nome de usuário
@@ -25,13 +27,13 @@ jobs:
       - name: Criar pasta dist
         run: mkdir -p dist
 
-      # Configura a Snake Animation (usando v1)
+      # Gerar animação da cobrinha (SVG e GIF)
       - name: Gerar animação da cobrinha (SVG e GIF)
-        uses: Platane/snk@v1
+        uses: Platane/snk@v3
         with:
-          github_user_name: Dawid-01  # Substitua pelo seu nome de usuário do GitHub
-          svg_out_path: dist/snake.svg  # Caminho para salvar o SVG
-          gif_out_path: dist/snake.gif  # Caminho para salvar o GIF (opcional)
+          github_user_name: Dawid-01
+          svg_out_path: dist/snake.svg
+          gif_out_path: dist/snake.gif
 
       # Faz o upload da animação para a branch "output"
       - name: Enviar animação para a branch output
@@ -39,6 +41,8 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Atualiza o README do perfil com a animação e estatísticas
       - name: Atualizar README do perfil
