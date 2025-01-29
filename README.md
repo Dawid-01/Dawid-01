@@ -46,23 +46,3 @@
   </p>
 
   <br/>
-
-  <!-- Seção de Contato -->
-  <h3>📫 Entre em contato comigo:</h3>
-  <p align="center">
-    <a href="https://www.youtube.com/">
-      <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
-    </a>
-    <a href="https://www.instagram.com/dawidoli/">
-      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-    </a>
-    <a href="https://www.linkedin.com/in/dawid-de-jesus-258a1818a/">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-    </a>
-    <a href="mailto:dawidjesus2@gmail.com">
-      <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-    </a>
-  </p>
-</div>
-
----
