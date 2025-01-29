@@ -37,12 +37,4 @@
     <img src="https://skillicons.dev/icons?i=python,php,js,html,css,mysql,linux,java" alt="Skills" />
   </p>
 
-  <br/>
 
-  <!-- Seção de Contribuições Recentes -->
-  <h3>🌟 Contribuições Recentes</h3>
-  <p align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dawid-01&theme=default" />
-  </p>
-
-  <br/>
