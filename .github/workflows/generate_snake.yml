@@ -14,11 +14,20 @@ jobs:
       - name: Clonar repositório
         uses: actions/checkout@v2
 
+      # Verificar nome de usuário
+      - name: Verificar nome de usuário
+        run: |
+          echo "Nome de usuário: ${{ github.repository_owner }}"
+
+      # Criar pasta dist
+      - name: Criar pasta dist
+        run: mkdir -p dist
+
       # Configura a Snake Animation
       - name: Gerar animação da cobrinha (SVG)
         uses: Platane/snk@v2
         with:
-          github_user_name: Dawid-01
+          github_user_name: Dawid-01  # Substitua pelo seu nome de usuário do GitHub
           outputs: dist/snake.svg
 
       # Gera um GIF animado da cobrinha
