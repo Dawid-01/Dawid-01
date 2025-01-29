@@ -25,7 +25,7 @@ jobs:
 
       # Configura a Snake Animation
       - name: Gerar animação da cobrinha (SVG)
-        uses: Platane/snk@v2
+        uses: Platane/snk@v1
         with:
           github_user_name: Dawid-01  # Substitua pelo seu nome de usuário do GitHub
           outputs: dist/snake.svg
