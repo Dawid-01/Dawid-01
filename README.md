@@ -42,7 +42,7 @@
   <!-- Seção de Contribuições Recentes -->
   <h3>🌟 Contribuições Recentes</h3>
   <p align="center">
-    ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Dawid-01&theme=tokyonight)
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dawid-01&theme=default" />
   </p>
 
   <br/>
