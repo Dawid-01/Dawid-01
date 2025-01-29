@@ -25,7 +25,7 @@ Here are some ideas to get you started:
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&width=500&lines=Technologies+I've+used)](https://git.io/typing-svg)
   <div align="left">
-    <img src="https://skillicons.dev/icons?i=js,html,css,git,java,docker,linux,mysql" /><br>
+    <img src="https://skillicons.dev/icons?i=js,html,css,git,python,nodejs,linux,mysql" /><br>
   </div>
 <br/><br/>
 
@@ -43,6 +43,7 @@ Here are some ideas to get you started:
 <p align="center">
 <img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="500">
 </p>
+
 
 <div>
  
