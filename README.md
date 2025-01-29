@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&width=500&lines=Hello%2C+everyone!;My+name+is+Dawid+de+Jesus;I'm+24+years+old;I+live+in+São+Paulo+city%2C+;Estate+of+São+Paulo+-++Brazil;Be+welcome!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&width=500&lines=Hello%2C+everyone!;My+name+is+Dawid+de+Jesus;I'm+25+years+old;I+live+in+São+Paulo+city%2C+;Estate+of+São+Paulo+-++Brazil;Be+welcome!)](https://git.io/typing-svg)
 
 
 - 🔭 I’m currently working on software development
