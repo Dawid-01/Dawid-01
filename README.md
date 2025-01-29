@@ -44,11 +44,6 @@ Here are some ideas to get you started:
 </p>
 
 
-<div>
- 
-  ![Snake animation](https://github.com/Dawid-01/Dawid-01/blob/output/github-contribution-grid-snake.svg)
- 
-</div>
 
 <div align="center">
 <p><b>Visitor Count</b></p>
